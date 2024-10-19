@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+.container{
+    border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    
+    width: 200px;
+}
+#display{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+}
+button{
+    height: 50px;
+}
+.number{
+    width: 50px;
+}
+.op{
+    width: 50px;
+}
+#clear{
+    width: 150px;
+}
+#equal{
+    width: 50px;
+}
+#zero{
+    width: 150px;
+}
